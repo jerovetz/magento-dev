@@ -1,6 +1,6 @@
 # Magento-dev
 
-This is a configured image for developing Magento plugins, based on official PHP image (https://hub.docker.com/_/php) with an already added Apache server.
+This is an image for developing Magento plugins, based on official PHP image (https://hub.docker.com/_/php) with an already added Apache server.
 Usage:
 
     docker run -d -v <your desired magento install location>:/var/www/html -p 8080:80 --name magento-dev jurijuri/magento-dev
